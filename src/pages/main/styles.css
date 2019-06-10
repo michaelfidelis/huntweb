@@ -1,22 +1,22 @@
 .product-list {
   max-width: 700px;
-  margin: 20px auto 0;
-  padding: 0 20px;
+  margin: 1.5em auto 0;
+  padding: 0 1.5em;
 }
 
 .product-list article {
   background: #FFF;
-  border: 1px solid #DDD;
+  border: .065rem solid #DDD;
   border-radius: 5px;
-  padding: 20px;
-  margin-bottom:  20px;
+  padding: 1.3em;
+  margin-bottom:  1.5em;
 }
 
 .product-list article p {
-  font-size: 16px;
+  font-size: 12pt;
   color: #999;
   margin-top: 5px;
-  line-height: 24px;
+  line-height: 1.5em;
 }
 
 .product-list article a {

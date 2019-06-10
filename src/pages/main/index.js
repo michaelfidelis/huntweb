@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProductAPI from '../../services/products.service';
 import './styles.css';
-
+import { Link } from 'react-router-dom';
 export default class Main extends Component {
 
   state = {
@@ -50,7 +50,8 @@ export default class Main extends Component {
           <article key={product._id}>
             <strong>{product.title}</strong>
             <p>{product.description}</p>
-            <a href={product.url} target="_blank">Acessar</a>
+
+            <Link  to={`/products/${product._id}`}>Acessar</Link>
           </article>
         ))}
 
